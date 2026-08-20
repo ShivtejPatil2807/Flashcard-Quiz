@@ -36,7 +36,7 @@ if not st.session_state.start_quiz:
     col1 ,col2 = st.columns([2,1], vertical_alignment="bottom")
 
     with col1:
-        st.subheader("Select Category")
+
         categories = ["All"]
         
         for question in questions:
@@ -44,12 +44,12 @@ if not st.session_state.start_quiz:
                 categories.append(question["Category"])
 
         category = st.selectbox(
-            "Select category",
+            "Choose a category",
             categories
             )
 
     with col2:
-        if st.button("Start Quiz"):
+        if st.button("Start Quiz",type = "primary", use_container_width = True):
 
             if ["category"] == "All":
                 selected_questions = questions
