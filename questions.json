@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Who creator of Python?",
+    "options": ["Guido Van Rossum","Dennie Ratchie","Bjarne Strustrup","Jamps Gosling"],
+    "answer": "Guido Van Rossum",
+    "Category":"Python"
+  },
+  {
+    "question": "Which of the following keywords is used to define a function in Python?",
+    "options": ["func", "define", "def", "function"],
+    "answer": "def",
+    "Category":"Python"
+  },
+  {
+    "question": "Which module in Python is used for regular expressions?",
+    "options": ["reg", "regex", "py.re", "re"],
+    "answer": "py.re",
+    "Category":"Python"
+  },
+  {
+    "question": "What is the output of the expression: 2 ** 3 in Python?",
+    "options": ["6", "8", "9", "23"],
+    "answer": "6",
+    "Category":"Python"
+  },
+  {
+    "question": "Which of the following data structures is immutable?",
+    "options": ["List", "Dictionary", "Set", "Tuple"],
+    "answer": "Set",
+    "Category":"Python"
+  },
+  {
+    "question": "Which data type stores True or False?",
+    "options": ["int","str","bool","float"],
+    "answer": "bool",
+    "Category":"Python"
+  },
+  {
+    "question": "Which symbol is used for comment in Python?",
+    "options": ["//", "#", "/*", "--"],
+    "answer": "#",
+    "Category":"Python"
+  },
+  {
+    "question": "Which language is known as an object-oriented programming language?",
+    "options": ["HTML","CSS","C++","SQL"],
+    "answer": "C++",
+    "Category":"Python"
+  },
+  {
+    "question": "Which command is used to retrieve data from a SQL table?",
+    "options": ["GET","FETCH","SELECT","READ"],
+    "answer": "SELECT",
+    "Category":"Python"
+  }
+
+]
