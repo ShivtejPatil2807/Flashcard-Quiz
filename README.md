@@ -29,3 +29,8 @@ New features will be added step by step.
 - Random module
 - Git & GitHub
 
+### 👨‍💻 Author
+
+**Shivtej Patil**
+
+GitHub: [ShivtejPatil2807](https://github.com/ShivtejPatil2807)
