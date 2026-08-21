@@ -36,7 +36,7 @@
     "Category":"Python"
   },
   {
-    "question": "Which symbol is used for comment in Python?",
+    "question": "Which symbol is used for the comment in Python?",
     "options": ["//", "#", "/*", "--"],
     "answer": "#",
     "Category":"Python"
