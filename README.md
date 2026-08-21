@@ -30,7 +30,8 @@ New features will be added step by step.
 - Git & GitHub
 
 ## Live Demo
-🚀 A live demo can be added after deploying the application using Streamlit Community Cloud.
+
+Coming soon! The application will be deployed using Streamlit Community Cloud.
 
 ### 👨‍💻 Author
 
