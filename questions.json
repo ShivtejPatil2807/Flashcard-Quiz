@@ -52,5 +52,11 @@
     "options": ["GET","FETCH","SELECT","READ"],
     "answer": "SELECT",
     "Category":"Python"
+  },
+  {
+    "question": "If text = Python , what will text[1:4] return ?",
+    "options": ["ytho","Pyth","yth","tho"],
+    "answer": "yth",
+    "Category":"Python"
   }
 ]
