@@ -29,6 +29,9 @@ New features will be added step by step.
 - Random module
 - Git & GitHub
 
+## Live Demo
+🚀 A live demo can be added after deploying the application using Streamlit Community Cloud.
+
 ### 👨‍💻 Author
 
 **Shivtej Patil**
