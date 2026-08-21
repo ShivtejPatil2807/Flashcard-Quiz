@@ -29,12 +29,3 @@ New features will be added step by step.
 - Random module
 - Git & GitHub
 
-## Project Structure
-
-```text
-Flashcard-Quiz-App/
-│
-├── app.py
-├── questions.json
-├── requirements.txt
-└── .gitignore
