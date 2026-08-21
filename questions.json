@@ -1,6 +1,6 @@
 [
   {
-    "question": "Who creator of Python?",
+    "question": "Who is the creator of Python?",
     "options": ["Guido Van Rossum","Dennie Ratchie","Bjarne Strustrup","Jamps Gosling"],
     "answer": "Guido Van Rossum",
     "Category":"Python"
@@ -53,5 +53,4 @@
     "answer": "SELECT",
     "Category":"Python"
   }
-
 ]
