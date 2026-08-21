@@ -122,3 +122,30 @@ else:
                     st.session_state.score += 1
 
                 st.rerun()
+
+        else:
+            if( st.session_state.selected_answer == question["answer"]):
+                st.success("🎉Correct")
+
+            else:
+                st.error(
+                    f"❌ Wrong! Correct answer: "
+                    f"{question['answer']}"
+                )
+
+            if st.button("➡️ Next question"):
+                st.session_state.current_questions += 1
+                st.session_state.answered = False
+                st.session_state.selected_answer = None
+
+                st.rerun()
+
+        st.sidebar.title("📊 Quiz Statistics")
+
+        st.sidebar.metric(
+            "Score :",
+            st.session_state.score
+        )
+        st.sidebar.write(
+            f"Question: {current + 1}/{len(quiz_questions)}"
+        )
