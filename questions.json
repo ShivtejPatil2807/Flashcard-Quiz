@@ -243,5 +243,115 @@
     "options": ["<ul>","<li>","<ol>","<list>"],
     "answer": "<ol>",
     "Category": "HTML"
+},
+{
+    "question": "Which of the following is used to declare a variable in C++?",
+    "options": [
+        "int",
+        "var",
+        "let",
+        "declare"
+    ],
+    "answer": "int",
+    "Category": "C++"
+},
+{
+    "question": "Which symbol is used to end a statement in C++?",
+    "options": [
+        ".",
+        ":",
+        ";",
+        ","
+    ],
+    "answer": ";",
+    "Category": "C++"
+},
+{
+    "question": "Which function is the entry point of a C++ program?",
+    "options": [
+        "start()",
+        "main()",
+        "run()",
+        "execute()"
+    ],
+    "answer": "main()",
+    "Category": "C++"
+},
+{
+    "question": "Which operator is used for output with cout in C++?",
+    "options": [
+        ">>",
+        "<<",
+        "==",
+        "&&"
+    ],
+    "answer": "<<",
+    "Category": "C++"
+},
+{
+    "question": "Which header file is required to use cout and cin?",
+    "options": [
+        "<stdio.h>",
+        "<conio.h>",
+        "<iostream>",
+        "<string.h>"
+    ],
+    "answer": "<iostream>",
+    "Category": "C++"
+},
+{
+    "question": "Which concept allows a class to acquire properties of another class?",
+    "options": [
+        "Encapsulation",
+        "Inheritance",
+        "Polymorphism",
+        "Abstraction"
+    ],
+    "answer": "Inheritance",
+    "Category": "C++"
+},
+{
+    "question": "Which keyword is used to create an object dynamically in C++?",
+    "options": [
+        "malloc",
+        "create",
+        "new",
+        "object"
+    ],
+    "answer": "new",
+    "Category": "C++"
+},
+{
+    "question": "Which access specifier makes class members accessible only within the class?",
+    "options": [
+        "public",
+        "protected",
+        "private",
+        "internal"
+    ],
+    "answer": "private",
+    "Category": "C++"
+},
+{
+    "question": "Which feature allows the same function name to have different parameters?",
+    "options": [
+        "Function Overloading",
+        "Inheritance",
+        "Encapsulation",
+        "Constructor"
+    ],
+    "answer": "Function Overloading",
+    "Category": "C++"
+},
+{
+    "question": "Which container is used to store a dynamic array in C++ STL?",
+    "options": [
+        "stack",
+        "queue",
+        "vector",
+        "map"
+    ],
+    "answer": "vector",
+    "Category": "C++"
 }
 ]
