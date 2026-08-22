@@ -52,20 +52,20 @@ if not st.session_state.start_quiz:
     with col2:
         if st.button("Start Quiz",type = "primary", use_container_width = True):
 
-            if ["category"] == "All":
-                selected_questions = questions
+            if category == "All":
+                selected_questions = questions.copy()
             else:
                 selected_questions = [q for q in questions if q["Category"] == category]
 
-                random.shuffle(selected_questions)
+            random.shuffle(selected_questions)
+            st.session_state.quiz_questions = selected_questions
+            st.session_state.start_quiz = True
+            st.session_state.current_questions = 0
+            st.session_state.score = 0
+            st.session_state.answered = False
+            st.session_state.selected_answer = None
 
-                st.session_state.quiz_questions = selected_questions
-                st.session_state.start_quiz = True
-                st.session_state.current_questions = 0
-                st.session_state.score = 0
-                st.session_state.answered = False
-
-                st.rerun()
+            st.rerun()
 else:
     quiz_questions = st.session_state.quiz_questions
     current = st.session_state.current_questions
@@ -89,14 +89,14 @@ else:
             st.warning("keep learning ! Try again.")
 
         if st.button("Restart Quiz"):
-            st.session_state.quiz_start = False
+            st.session_state.start_quiz = False
             st.session_state.score = 0
             st.session_state.current_questions = 0
             st.session_state.answered = False 
             st.rerun()
 
     else:
-        question = questions[current]
+        question = quiz_questions[current]
 
         st.write(f"### Question ,{current +1 } / {len(quiz_questions)}")
         st.progress(

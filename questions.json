@@ -58,5 +58,190 @@
     "options": ["ytho","Pyth","yth","tho"],
     "answer": "yth",
     "Category":"Python"
-  }
+  },
+  {
+    "question": "Which keyword is used to create a class in Java?",
+    "options": ["class", "struct", "define", "object"],
+    "answer": "class",
+    "Category": "Java"
+},
+{
+    "question": "Which method is the entry point of a Java program?",
+    "options": ["start()", "main()", "run()", "execute()"],
+    "answer": "main()",
+    "Category": "Java"
+},
+{
+    "question": "Which keyword is used to inherit a class in Java?",
+    "options": ["implements", "extends", "inherits", "super"],
+    "answer": "extends",
+    "Category": "Java"
+},
+{
+    "question": "Which data type is used to store a single character in Java?",
+    "options": ["String", "char", "character", "byte"],
+    "answer": "char",
+    "Category": "Java"
+},
+{
+    "question": "Which keyword is used to create an object in Java?",
+    "options": ["create", "object", "new", "instance"],
+    "answer": "new",
+    "Category": "Java"
+},
+{
+    "question": "Which symbol is used to end a statement in Java?",
+    "options": [".", ",", ";", ":"],
+    "answer": ";",
+    "Category": "Java"
+},
+{
+    "question": "Which keyword is used to define a constant in Java?",
+    "options": ["const", "final", "static", "constant"],
+    "answer": "final",
+    "Category": "Java"
+},
+{
+    "question": "Which collection does not allow duplicate elements in Java?",
+    "options": ["List", "ArrayList", "Set", "Array"],
+    "answer": "Set",
+    "Category": "Java"
+},
+{
+    "question": "Which keyword is used to handle exceptions in Java?",
+    "options": ["try", "error", "exception", "handle"],
+    "answer": "try",
+    "Category": "Java"
+},
+{
+    "question": "Java source code files normally have which extension?",
+    "options": [".py", ".cpp", ".java", ".js"],
+    "answer": ".java",
+    "Category": "Java"
+},
+{
+    "question": "Which data structure follows the LIFO principle?",
+    "options": ["Queue","Stack","Array","Linked List"],
+    "answer": "Stack",
+    "Category": "DSA"
+},
+{
+    "question": "Which data structure follows the FIFO principle?",
+    "options": ["Stack","Queue","Tree","Graph"],
+    "answer": "Queue",
+    "Category": "DSA"
+},
+{
+    "question": "What is the time complexity of binary search on a sorted array?",
+    "options": ["O(n)","O(log n)","O(n²)","O(1)"],
+    "answer": "O(log n)",
+    "Category": "DSA"
+},
+{
+    "question": "Which data structure is commonly used to implement recursion?",
+    "options": ["Queue","Stack","Heap","Graph"],
+    "answer": "Stack",
+    "Category": "DSA"
+},
+{
+    "question": "Which data structure consists of nodes connected by edges?",
+    "options": ["Array","Stack","Graph","Queue"],
+    "answer": "Graph",
+    "Category": "DSA"
+},
+{
+    "question": "What is the average time complexity of searching in a hash table?",
+    "options": ["O(n)","O(log n)","O(1)","O(n²)"],
+    "answer": "O(1)",
+    "Category": "DSA"
+},
+{
+    "question": "Which sorting algorithm repeatedly selects the smallest element?",
+    "options": ["Bubble Sort","Selection Sort","Merge Sort","Quick Sort"],
+    "answer": "Selection Sort",
+    "Category": "DSA"
+},
+{
+    "question": "Which data structure is used in Breadth-First Search (BFS)?",
+    "options": ["Stack","Queue","Heap","Array"],
+    "answer": "Queue",
+    "Category": "DSA"
+},
+{
+    "question": "Which data structure is commonly used in Depth-First Search (DFS)?",
+    "options": ["Queue","Stack","Hash Table","Linked List"],
+    "answer": "Stack",
+    "Category": "DSA"
+},
+{
+    "question": "What is the worst-case time complexity of Bubble Sort?",
+    "options": ["O(1)","O(log n)","O(n)","O(n²)"],
+    "answer": "O(n²)",
+    "Category": "DSA"
+},
+{
+    "question": "What does HTML stand for?",
+    "options": [
+        "Hyper Text Markup Language",
+        "High Text Machine Language",
+        "Hyperlink Text Markup Language",
+        "Home Tool Markup Language"
+    ],
+    "answer": "Hyper Text Markup Language",
+    "Category": "HTML"
+},
+{
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": ["<link>","<a>","<href>","<url>"],
+    "answer": "<a>",
+    "Category": "HTML"
+},
+{
+    "question": "Which tag is used to display an image in HTML?",
+    "options": ["<image>","<img>","<picture>","<src>"],
+    "answer": "<img>",
+    "Category": "HTML"
+},
+{
+    "question": "Which HTML tag is used to create the largest heading?",
+    "options": ["<h6>","<heading>","<h1>","<head>"],
+    "answer": "<h1>",
+    "Category": "HTML"
+},
+{
+    "question": "Which tag is used to create an unordered list?",
+    "options": ["<ol>","<ul>","<li>","<list>"],
+    "answer": "<ul>",
+    "Category": "HTML"
+},
+{
+    "question": "Which HTML attribute specifies the destination of a hyperlink?",
+    "options": ["src","href","link","target"],
+    "answer": "href",
+    "Category": "HTML"
+},
+{
+    "question": "Which tag is used to create a paragraph?",
+    "options": ["<paragraph>","<p>","<para>","<text>"],
+    "answer": "<p>",
+    "Category": "HTML"
+},
+{
+    "question": "Which HTML tag is used to create a table row?",
+    "options": ["<td>","<th>","<tr>","<table-row>"],
+    "answer": "<tr>",
+    "Category": "HTML"
+},
+{
+    "question": "Which attribute is used to provide alternative text for an image?",
+    "options": ["title","alt","src","description"],
+    "answer": "alt",
+    "Category": "HTML"
+},
+{
+    "question": "Which tag is used to create a numbered list?",
+    "options": ["<ul>","<li>","<ol>","<list>"],
+    "answer": "<ol>",
+    "Category": "HTML"
+}
 ]
