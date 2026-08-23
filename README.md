@@ -29,6 +29,15 @@ New features will be added step by step.
 - Random module
 - Git & GitHub
 
+
+## Question Data
+Quiz questions are stored in questions.json they contains:
+
+* **Question**
+* **Multiple-choice options**
+* **Correct answer**
+* **Category**
+
 ## Live Demo
 
 Coming soon! The application will be deployed using Streamlit Community Cloud.
