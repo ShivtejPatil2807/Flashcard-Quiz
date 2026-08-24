@@ -29,6 +29,31 @@ New features will be added step by step.
 - Random module
 - Git & GitHub
 
+##  Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/ShivtejPatil2807/Simple-Guess-Game.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd  Flashcard-Quiz
+```
+
+### 3. Install the required packages 
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Application
+
+```bash
+streamlit run app.py
+```
 
 ## Question Data
 Quiz questions are stored in questions.json they contains:
