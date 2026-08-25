@@ -62,6 +62,16 @@ Quiz questions are stored in questions.json they contains:
 * **Multiple-choice options**
 * **Correct answer**
 * **Category**
+  
+## How it work
+
+1.Open the Flashcard Quiz application.
+2.Select a programming category.
+3.Start the quiz.
+4.Answer the questions.
+5.Submit your answer.
+6.View your score.
+7.Continue to the next question.
 
 ## Live Demo
 
