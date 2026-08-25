@@ -353,5 +353,115 @@
     ],
     "answer": "vector",
     "Category": "C++"
+},
+{
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": [
+        "var",
+        "int",
+        "string",
+        "define"
+    ],
+    "answer": "var",
+    "Category": "JavaScript"
+},
+{
+    "question": "Which symbol is used for single-line comments in JavaScript?",
+    "options": [
+        "//",
+        "/*",
+        "#",
+        "<!--"
+    ],
+    "answer": "//",
+    "Category": "JavaScript"
+},
+{
+    "question": "Which method is used to print output to the browser console?",
+    "options": [
+        "print()",
+        "console.log()",
+        "display()",
+        "write()"
+    ],
+    "answer": "console.log()",
+    "Category": "JavaScript"
+},
+{
+    "question": "Which keyword is used to declare a constant in JavaScript?",
+    "options": [
+        "constant",
+        "final",
+        "const",
+        "static"
+    ],
+    "answer": "const",
+    "Category": "JavaScript"
+},
+{
+    "question": "Which operator is used for strict equality in JavaScript?",
+    "options": [
+        "=",
+        "==",
+        "===",
+        "!="
+    ],
+    "answer": "===",
+    "Category": "JavaScript"
+},
+{
+    "question": "Which data type is used to store true or false values?",
+    "options": [
+        "String",
+        "Number",
+        "Boolean",
+        "Object"
+    ],
+    "answer": "Boolean",
+    "Category": "JavaScript"
+},
+{
+    "question": "Which method adds an element to the end of an array?",
+    "options": [
+        "push()",
+        "pop()",
+        "shift()",
+        "add()"
+    ],
+    "answer": "push()",
+    "Category": "JavaScript"
+},
+{
+    "question": "Which method removes the last element from an array?",
+    "options": [
+        "remove()",
+        "delete()",
+        "pop()",
+        "shift()"
+    ],
+    "answer": "pop()",
+    "Category": "JavaScript"
+},
+{
+    "question": "Which keyword is used to define a function in JavaScript?",
+    "options": [
+        "function",
+        "def",
+        "fun",
+        "method"
+    ],
+    "answer": "function",
+    "Category": "JavaScript"
+},
+{
+    "question": "Which file extension is commonly used for JavaScript files?",
+    "options": [
+        ".java",
+        ".js",
+        ".py",
+        ".jsx"
+    ],
+    "answer": ".js",
+    "Category": "JavaScript"
 }
 ]
