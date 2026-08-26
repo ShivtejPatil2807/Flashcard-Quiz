@@ -63,8 +63,7 @@ if not st.session_state.start_quiz:
     num_questions = st.select_slider(
         "How many questions?",
         options = sorted(count_options),
-        value = sorted(count_options)[0]
-    )
+        value = sorted(count_options)[0])
 
     with col2:
         if st.button("Start Quiz", type = "primary", use_container_width = True):
