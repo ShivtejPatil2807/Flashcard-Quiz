@@ -1,8 +1,6 @@
 # 🧠 Flashcard Quiz App
 
-A web-based programming quiz application built with Python and Streamlit.
-
-The app allows users to test their programming knowledge through multiple-choice questions, select quiz categories, and track their score.
+A Streamlit web app that tests your programming knowledge through multiple-choice flashcard quizzes. Pick a category, choose how many questions you want, and get instant feedback with explanations as you go.
 
 ## Project Status
 
