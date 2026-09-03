@@ -10,14 +10,15 @@ In Progress — core quiz flow is functional (category selection, scoring, expla
 
 ## Current Features
 
-- 🧠 Programming quiz
-- 📂 Category selection
-- 🔀 Randomized questions
-- ✅ Answer checking
-- 🏆 Score tracking
-- 📊 Quiz score display
-- 📁 Questions stored separately using JSON
-- 🎨 Streamlit web interface
+* **Multiple-choice quiz format with shuffled answer options each round.**
+* **Category selection — quiz on "All" topics or filter to a specific category from questions.json.**
+* **Adjustable question count via a slider (5, 10, 15, 20, or max available).**
+* **Instant feedback after each answer — correct/incorrect with the right answer shown.**
+* **Explanations displayed after answering, when available for a question.**
+* **Live sidebar stats — running score and current question progress.**
+* **Progress bar tracking how far through the quiz you are.**
+* **End-of-quiz summary with score, percentage, and a performance message (with balloons for high scores 🎈).**
+* **Restart option to immediately start a new quiz.**
 
 ## Technologies Used
 
