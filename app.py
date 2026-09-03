@@ -2,7 +2,6 @@ import streamlit as st
 import json
 import random
 
-
 st.set_page_config(page_title = "Flashcard Quiz", page_icon = "🧠", layout = "centered")
 
 with open("questions.json", "r") as file:
