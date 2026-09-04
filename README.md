@@ -20,6 +20,20 @@ In Progress — core quiz flow is functional (category selection, scoring, expla
 * **End-of-quiz summary with score, percentage, and a performance message (with balloons for high scores 🎈).**
 * **Restart option to immediately start a new quiz.**
 
+
+## Project Structure
+
+```text
+Flashcard-Quiz/
+│
+├── app.py
+├── questions.json
+├── requirements.txt
+├── .gitignore
+└── README.MD
+
+```
+
 ## Technologies Used
 
 - Python
