@@ -4,7 +4,7 @@ A Streamlit web app that tests your programming knowledge through multiple-choic
 
 ## Project Status
 
-This project is currently under development.
+This project is currently under development it is not completely ready to deploy.
 
 In Progress — core quiz flow is functional (category selection, scoring, explanations, restart), but the app is still being actively developed and refined. Expect changes and possible bugs.
 
